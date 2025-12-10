@@ -1,15 +1,33 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args) {
 
 
-        //1
-        int m1 = 50;
-        int m2 = 76;
-        int m3 = 88;
-        int m4 = 25;
-        int m5 = 66;
+    //1
+        Scanner x=new Scanner(System.in);
+
+        int m1;
+        int m2;
+        int m3;
+        int m4;
+        int m5;
+
+        System.out.print("mark1: ");
+        m1=x.nextInt();
+
+        System.out.print("mark2: ");
+        m2=x.nextInt();
+
+        System.out.print("mark3: ");
+        m3=x.nextInt();
+
+        System.out.print("mark4: ");
+        m4=x.nextInt();
+
+        System.out.print("mark5: ");
+        m5=x.nextInt();
 
         System.out.println("marks u entered: ");
         int[] marks = {m1, m2, m3, m4, m5};
