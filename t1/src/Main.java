@@ -18,6 +18,8 @@ public class Main{
         marksCatagoryMethod(marks);
         System.out.println("average of the marks is : "+(avgFider(marks)));
         System.out.println("max mark : "+(maxFinder(marks)));
+        System.out.println("min mark : "+(minFinder(marks)));
+
 
     }
 
@@ -75,6 +77,19 @@ public class Main{
             }
         }
         return maxMark;
+    }
+
+
+    //5
+    public static int minFinder(int[] marks){
+        int minMark=marks[0];
+
+        for(int i:marks){
+            if(minMark>i){
+                minMark=i;
+            }
+        }
+        return minMark;
     }
 
 }
