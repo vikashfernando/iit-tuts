@@ -1,7 +1,10 @@
+import java.util.Arrays;
+
 public class Main{
     public static void main(String[] args) {
 
-        //1 get user input and display it
+
+        //1 
         int m1 = 50;
         int m2 = 76;
         int m3 = 88;
@@ -19,8 +22,11 @@ public class Main{
         System.out.println("average of the marks is : "+(avgFider(marks)));
         System.out.println("max mark : "+(maxFinder(marks)));
         System.out.println("min mark : "+(minFinder(marks)));
-
-
+        System.out.println("sorted marks: ");
+        int[] r1=sorter(marks);
+        for(int i:r1){
+            System.out.println(i);
+        }
     }
 
 
@@ -51,6 +57,7 @@ public class Main{
         System.out.println("60-69: "+countMarks60_69);
         System.out.println("first: "+countMarksEqualOrAbove70);
     }
+
 
     //3
     public static double avgFider(int[] marks){
@@ -92,4 +99,11 @@ public class Main{
         return minMark;
     }
 
+
+    //6
+    public static int[] sorter(int[] marks){
+        int[] sortedMarks=marks;
+        Arrays.sort(sortedMarks);
+        return sortedMarks;
+    }
 }
