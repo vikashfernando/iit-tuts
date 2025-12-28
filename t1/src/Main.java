@@ -8,6 +8,12 @@ public class Main{
     //1
         Scanner x=new Scanner(System.in);
 
+
+
+
+
+
+        
         int m1;
         int m2;
         int m3;
