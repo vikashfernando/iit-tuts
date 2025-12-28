@@ -10,7 +10,6 @@ public class Main{
 
 
 
-
         
         int m1;
         int m2;
