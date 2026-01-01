@@ -9,6 +9,7 @@ public class Main{
         Scanner x=new Scanner(System.in);
 
 
+
         
 
         int m1;
