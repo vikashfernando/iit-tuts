@@ -26,6 +26,7 @@ public class Main{
 
 
 
+
         
         System.out.print("mark4: ");
         m4=x.nextInt();
